@@ -49,12 +49,6 @@ This micro-friction is often all you need to snap out of the dopamine loop and g
 
 ## 📸 Screenshots
 
-<div align="center"> 
-  <img src="assets/overlay-demo.png" alt="The Mindful Overlay" width="700" style="border-radius: 10px; box-shadow: 0px 4px 20px rgba(0,0,0,0.5);" />
-</div>
-
-<br />
-
 | **The Popup (Config)** | **The "Gate" (Dark Mode)** |
 |:---:|:---:|
 | <img src="assets/popup.png" width="300" /> | <img src="assets/overlay.png" width="300" /> |
@@ -64,7 +58,7 @@ This micro-friction is often all you need to snap out of the dopamine loop and g
 ## ✨ Key Features
 
 * **🧘 Mindful Pause:** A non-intrusive "breathing room" overlay that intercepts distracting URLs.
-* **🎨 Apple-Inspired Design:** Minimalist UI with frosted glass effects (backdrop-filter), system fonts, and native Dark Mode support.
+* **🎨 Minimalistic Design:** Minimalist UI with frosted glass effects (backdrop-filter) and system fonts.
 * **🔒 Privacy First:** 100% Local Storage. No data is collected, no analytics, no external servers. Your browsing history stays on your device.
 * **⚡ Ultra Lightweight:** Built with **Vanilla JavaScript** (no heavy frameworks). The content script executes in <50ms.
 * **🚀 Modern Tech:** Fully compliant with Google's latest **Manifest V3** architecture.
@@ -128,8 +122,3 @@ If this extension helped you save a few hours of your life, consider buying me a
 ## 📜 License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
-
-<div align="center">
-  <br />
-  Built with ❤️ by <a href="https://www.linkedin.com/in/anujaga/">Anuj</a>
-</div>
