@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "MindfulGate - Mindful Browsing",
-  "version": "1.0",
+  "name": "MindfulGate - Stop Doomscrolling & Focus Blocker",
+  "short_name": "MindfulGate",
+  "version": "1.0.1",
   "description": "Stops impulsive scrolling by asking you to choose between Impulse or Informed visiting.",
   "permissions": ["storage"],
   "content_scripts": [
