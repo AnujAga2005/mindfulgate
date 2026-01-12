@@ -4,8 +4,8 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.85); /* Deep, calm dark background */
-    backdrop-filter: blur(15px); /* Heavy blur for focus */
+    background: rgba(0, 0, 0, 0.85); 
+    backdrop-filter: blur(15px); 
     z-index: 2147483647;
     display: flex;
     justify-content: center;
@@ -15,11 +15,8 @@
 }
 
 .mindful-container {
-    /* 1. RESET FIRST */
     all: initial; 
     font-family: inherit;
-    
-    /* 2. LAYOUT SECOND */
     display: flex;
     gap: 40px; 
     align-items: center;
@@ -35,14 +32,11 @@
     border-radius: 16px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
-    
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
-    
-    /* Glass & Monochrome */
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
@@ -61,15 +55,15 @@
 
 /* Informed */
 #mindful-overlay #btn-informed {
-    background: #ffffff; /* Pure white */
-    color: #000000; /* Pure black text */
+    background: #ffffff;
+    color: #000000; 
     font-weight: 600;
 }
 
 #mindful-overlay #btn-informed:hover {
     background: #f0f0f0;
     transform: scale(1.02);
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2); /* faint glow */
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2); 
 }
 
 @keyframes fadeIn {
@@ -85,50 +79,5 @@
     #mindful-overlay button {
         width: 180px;
         height: 80px;
-    }
-}
-.footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-top: 1px solid rgba(0,0,0,0.05); /* Barely visible separator */
-}
-
-.bmac-button {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background: #f5f5f7; /* Apple "Light Gray" background */
-    color: #1d1d1f;      /* Apple "Near Black" text */
-    padding: 8px 16px;
-    border-radius: 20px; /* Pill shape */
-    font-size: 13px;
-    font-weight: 500;
-    transition: all 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
-    border: 1px solid transparent;
-}
-
-/* Hover State: Subtle darken like iOS */
-.bmac-button:hover {
-    background: #e8e8ed;
-    transform: scale(1.02);
-}
-
-/* Active State: Click press effect */
-.bmac-button:active {
-    transform: scale(0.96);
-    background: #d2d2d7;
-}
-
-/* Dark Mode Support (will apply in future version) */
-@media (prefers-color-scheme: dark) {
-    .bmac-button {
-        background: #1c1c1e;
-        color: #f5f5f7;
-    }
-    .bmac-button:hover {
-        background: #2c2c2e;
     }
 }

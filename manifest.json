@@ -26,15 +26,5 @@
     "32": "images/logo-512.png",
     "48": "images/logo-512.png",
     "128": "images/logo-512.png"
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "mindfulgate@anuj.extension",
-      "strict_min_version": "109.0",
-      "data_collection_permissions": {
-        "required": ["none"],
-        "optional": []
-      }
-    }
   }
 }
